@@ -1,0 +1,123 @@
+---
+output: 
+  pdf_document:
+    latex_engine: xelatex
+    number_sections: true
+header-includes:
+- \usepackage{graphicx}
+- \usepackage{setspace}
+- \usepackage{fancyhdr}
+- \usepackage{enumitem}
+- \usepackage{fontspec}
+- \setmainfont[Ligatures=TeX,Scale=1.2, BoldFont={CormorantGaramond-Bold}, ItalicFont={CormorantGaramond-LightItalic}, BoldItalicFont={CormorantGaramond-BoldItalic}]{CormorantGaramond-Light}
+---
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\begin{titlepage}
+\begin{doublespace}
+\center
+\Huge
+\text{UCLA}
+
+\Large
+\text{Statistics 141SL}
+
+\text{Practice of Statistics Consulting}
+
+\HRule 
+
+\Huge
+\bf{A Study on Sugar Streak}\\
+
+\HRule
+
+\Large
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft}
+\emph{Authors:}\\
+\text{Youhee Kil, Yue Fei,} \\
+\text{Suyao Hu, Xinru Fang}
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright}
+\emph{Supervisor:}\\
+\text{Prof. Esfandiari, Mahtash}
+\end{flushright}
+\end{minipage}\\[1.0cm]
+
+\text{Winter 2017}\\[1.0cm]
+
+\includegraphics[width=\linewidth]{uclaseal.jpg}
+\normalsize
+\end{doublespace}
+\end{titlepage}
+
+\newpage
+\tableofcontents
+\pagebreak
+
+\section{Abstract}
+
+
+\section{Introduction}
+
+
+```{r,warning = FALSE,echo=FALSE, fig.width=5, fig.height=2}
+
+```
+
+
+
+```{r, echo=FALSE, fig.width=5, fig.height=2}
+
+```
+
+
+\section{Research Questions}
+
+\begin{enumerate}
+  \item{}
+  \item{}
+\end{enumerate}
+
+
+\section{Research Process}
+
+
+```{r warning = FALSE, echo=FALSE, fig.width=5, fig.height=2}
+
+```
+
+
+
+```{r warning = FALSE, echo=FALSE, fig.width=4, fig.height=2}
+
+```
+
+  
+```{r warning = FALSE, echo=FALSE, fig.width=5, fig.height=4}
+
+```
+
+   
+\section{Results}
+  
+\includegraphics{ODDS.png}
+\includegraphics{result.png}
+
+
+\section{Conclusion}
+
+\section{Shortcomings and Future Study}
+
+\section{References}
+
+
+\section{Appendix}
+\includegraphics{coefficients_1.png}
+
+\includegraphics{coefficients_2.png}
+
+\includegraphics{coefficients_3.png}
